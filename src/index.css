@@ -9,10 +9,10 @@ body{
 .calculator-grid{
   display: grid;
   justify-content: center;
-  
-  margin-top: 2rem;
+  margin-top: 3rem;
   grid-template-columns: repeat(4,6rem);
   grid-template-rows: minmax(7rem,auto) repeat(5, 6rem);
+  padding: 2rem;
 }
 
 .calculator-grid > button {
@@ -21,6 +21,7 @@ body{
   border: 1px solid white;
   outline: none; 
   background: rgba(255, 255, 255,.75);
+  transition: 0.2s ease-in;
 }
 
 .calculator-grid > button:hover,
